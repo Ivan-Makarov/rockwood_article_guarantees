@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+article > div.content {
+	color: #4b4b4b;
+}
+
+article > div.content strong {
+	font-weight: normal;
+	font-family: 'RobotoBold', Arial, Tahoma, Verdana, sans-serif;
+}
+
+@media only screen and (min-width : 1021px) {
+	article > div.content {
+		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+	}
+}
+
+@media only screen and (min-width : 641px) and (max-width : 1020px) {
+	article > div.content {
+		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+	}
+}
+
+@media only screen and (min-width : 481px) and (max-width : 640px) {
+	article > div.content {
+		font: normal 16px/22px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	article > div.content {
+		font: normal 16px/22px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+	}
+}
