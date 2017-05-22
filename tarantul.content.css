@@ -8,27 +8,74 @@ article > div.content strong {
 	font-weight: normal;
 	font-family: 'RobotoBold', Arial, Tahoma, Verdana, sans-serif;
 }
-
+/*epilogue start*/
+article > div.content > div.epilogue-no-image {
+	color: #4b4b4b;
+	border-top: solid 5px #ffaa00;
+	box-sizing: border-box;
+}
+/*epilogue end*/
 @media only screen and (min-width : 1021px) {
 	article > div.content {
 		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
-}
+	/*epilogue*/
+	article > div.content > div.epilogue-no-image {
+		padding: 10px 0 20px;
+		margin: 40px 0 0;
+	}
 
+	article > div.content > div.epilogue-no-image > p {
+		font-size: 24px;
+		line-height: 38px;
+	}
+	/*epilogue end*/
+}
 @media only screen and (min-width : 641px) and (max-width : 1020px) {
 	article > div.content {
 		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
-}
+	/*epilogue*/
+	article > div.content > div.epilogue-no-image {
+		padding: 0 0 21px;
+		margin: 40px 0 0;
+	}
 
+	article > div.content > div.epilogue-no-image > p {
+		font-size: 24px;
+		line-height: 38px;
+	}
+	/*epilogue end*/
+}
 @media only screen and (min-width : 481px) and (max-width : 640px) {
 	article > div.content {
 		font: normal 16px/22px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
-}
+	/*epilogue*/
+	article > div.content > div.epilogue-no-image {
+		padding: 0 0 18px;
+		margin: 30px 0 0;
+	}
 
+	article > div.content > div.epilogue-no-image > p {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	/*epilogue end*/
+}
 @media only screen and (max-width : 480px) {
 	article > div.content {
 		font: normal 16px/22px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
+	/*epilogue*/
+	article > div.content > div.epilogue-no-image {
+		padding: 0 0 18px;
+		margin: 30px 0 0;
+	}
+
+	article > div.content > div.epilogue-no-image > p {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	/*epilogue end*/
 }
