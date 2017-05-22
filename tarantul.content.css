@@ -8,6 +8,17 @@ article > div.content strong {
 	font-weight: normal;
 	font-family: 'RobotoBold', Arial, Tahoma, Verdana, sans-serif;
 }
+
+/*prologue start*/
+article > div.content > div.prologue {
+	background-image: url('img/laurel.png');
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	color: #8e8e8e;
+	box-sizing: border-box;
+}
+/*prologue end*/
+
 /*epilogue start*/
 article > div.content > div.epilogue-no-image {
 	color: #4b4b4b;
@@ -15,10 +26,22 @@ article > div.content > div.epilogue-no-image {
 	box-sizing: border-box;
 }
 /*epilogue end*/
+
 @media only screen and (min-width : 1021px) {
 	article > div.content {
 		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
+
+	/*prologue start*/
+	article > div.content > div.prologue {
+		min-height : 225px;
+		font : normal 20px/26px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+		padding : 0 300px 0 0;
+		background-position : 100% 0%;
+		}
+	}
+	/*prologue end*/
+
 	/*epilogue*/
 	article > div.content > div.epilogue-no-image {
 		padding: 10px 0 20px;
@@ -35,6 +58,17 @@ article > div.content > div.epilogue-no-image {
 	article > div.content {
 		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
+
+	/*prologue start*/
+	article > div.content > div.prologue {
+		min-height: 225px;
+		font: normal 20px/26px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+		padding: 0 300px 0 0;
+		margin: 40px 0 0;
+		background-position: 100% 0;
+	}
+	/*prologue end*/
+
 	/*epilogue*/
 	article > div.content > div.epilogue-no-image {
 		padding: 0 0 21px;
@@ -47,10 +81,21 @@ article > div.content > div.epilogue-no-image {
 	}
 	/*epilogue end*/
 }
+
 @media only screen and (min-width : 481px) and (max-width : 640px) {
 	article > div.content {
 		font: normal 16px/22px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
+
+	/*prologue start*/
+	article > div.content > div.prologue {
+		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+		padding: 240px 0 0;
+		margin: 20px 0 0;
+		background-position: 50% 0;
+	}
+	/*prologue end*/
+
 	/*epilogue*/
 	article > div.content > div.epilogue-no-image {
 		padding: 0 0 18px;
@@ -63,10 +108,21 @@ article > div.content > div.epilogue-no-image {
 	}
 	/*epilogue end*/
 }
+
 @media only screen and (max-width : 480px) {
 	article > div.content {
 		font: normal 16px/22px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
 	}
+
+	/*prologue start*/
+	article > div.content > div.prologue {
+		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
+		padding: 240px 0 0;
+		margin: 20px 0 0;
+		background-position: 50% 0;
+	}
+	/*prologue end*/
+
 	/*epilogue*/
 	article > div.content > div.epilogue-no-image {
 		padding: 0 0 18px;
