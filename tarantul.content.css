@@ -166,7 +166,7 @@ article > div.content > div.epilogue-no-image {
 	/*prologue start*/
 	article > div.content > div.prologue {
 		font: normal 18px/24px 'RobotoLight', Arial, Tahoma, Verdana, sans-serif;
-		padding: 240px 0 0;
+		padding: 230px 0 0;
 		margin: 20px 0 0;
 		background-position: 50% 0;
 	}
@@ -177,6 +177,8 @@ article > div.content > div.epilogue-no-image {
 		padding-left: 0;
 		padding-right: 0;
 		padding-top: 120px;
+		font-size: 22px;
+		line-height: 32px;
 		background-position: 50% 0;
 	}
 	/*list end*/
@@ -192,4 +194,35 @@ article > div.content > div.epilogue-no-image {
 		line-height: 28px;
 	}
 	/*epilogue end*/
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	article > div.content > div.prologue {
+		background-image: url('img/laurel_hires.png');
+		background-size: auto 220px;
+	}
+
+	article > div.content > div.client-rights > ul > li {
+		background-size: auto 100px;
+	}
+
+	article > div.content > div.client-rights > ul > li.monitoring {
+		background-image: url('img/cctv_hires.png');
+	}
+
+	article > div.content > div.client-rights > ul > li.payment {
+		background-image: url('img/hand_coin_hires.png');
+	}
+
+	article > div.content > div.client-rights > ul > li.certificate {
+		background-image: url('img/hand_paper_hires.png');
+	}
+
+	article > div.content > div.client-rights > ul > li.log {
+		background-image: url('img/clipboard_hires.png');
+	}
+
+	article > div.content > div.client-rights > ul > li.supervision {
+		background-image: url('img/builder_hires.png');
+	}
 }
