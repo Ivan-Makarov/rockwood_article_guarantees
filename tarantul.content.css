@@ -13,11 +13,60 @@ article > div.content strong {
 article > div.content > div.prologue {
 	background-image: url('img/laurel.png');
 	background-repeat: no-repeat;
-	background-color: #ffffff;
-	color: #8e8e8e;
 	box-sizing: border-box;
 }
 /*prologue end*/
+
+/*list start*/
+article > div.content > div.client-rights > p:first-of-type {
+	font-size: 40px;
+	line-height: 46px;
+}
+
+article > div.content > div.client-rights > ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+article > div.content > div.client-rights > ul > li {
+	margin-bottom: 40px;
+	padding-left: 150px;
+	padding-right: 40px;
+	font-family: 'Roboto';
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 700;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+article > div.content > div.client-rights > ul > li.monitoring {
+	background-image: url('img/cctv.png');
+}
+
+article > div.content > div.client-rights > ul > li.payment {
+	background-image: url('img/hand_coin.png');
+}
+
+article > div.content > div.client-rights > ul > li.certificate {
+	background-image: url('img/hand_paper.png');
+}
+
+article > div.content > div.client-rights > ul > li.log {
+	background-image: url('img/clipboard.png');
+}
+
+article > div.content > div.client-rights > ul > li.supervision {
+	background-image: url('img/builder.png');
+}
+
+article > div.content > div.client-rights > ul > li > p {
+	font-family: 'RobotoLight';
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+}
+/*list end*/
 
 /*epilogue start*/
 article > div.content > div.epilogue-no-image {
@@ -122,6 +171,15 @@ article > div.content > div.epilogue-no-image {
 		background-position: 50% 0;
 	}
 	/*prologue end*/
+
+	/*list start*/
+	article > div.content > div.client-rights > ul > li {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 120px;
+		background-position: 50% 0;
+	}
+	/*list end*/
 
 	/*epilogue*/
 	article > div.content > div.epilogue-no-image {
